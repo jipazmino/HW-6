@@ -1,0 +1,48 @@
+function setup() {
+	createCanvas(800, 400);
+}
+
+var x = 30
+
+function draw() {
+	background(230)
+	noStroke()
+  
+	
+fill(191,24,24)
+	rect(50,150,200,200)
+  
+beginShape(fill(26,165,54))
+	vertex(50, 150)
+	vertex(150, 50)
+	vertex(350, 50)
+	vertex(250, 150)
+	endShape(CLOSE)
+  
+  	
+	beginShape(fill(26,56,165))
+	vertex(250,150)
+	vertex(250,350)
+	vertex(350,250)
+	vertex(350,50)
+	endShape(CLOSE)
+
+	fill(200)
+	rect(450,150,200,200)
+	
+	beginShape(fill(180))
+	vertex(450, 150)
+	vertex(550, 50)
+	vertex(750, 50)
+	vertex(650, 150)
+	endShape(CLOSE)
+	
+	beginShape(fill(160))
+	vertex(650,150)
+	vertex(650,350)
+	vertex(750,250)
+	vertex(750,50)
+	endShape(CLOSE)
+	
+	
+}
